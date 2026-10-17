@@ -1,0 +1,26 @@
+source:
+  url: https://github.com/htfab/ttgf0p2-cells
+  original_url: null
+  kind: fork
+  why: GitHub fork of the upstream repository
+  licence: null
+  upstream_default_branch: main
+tapeouts:
+- org: tinytapeout
+  run: ttgf0p2
+  slot: tt_um_htfab_cells
+  project: Cell mux
+  size: 1x1
+  kind: digital (Verilog)
+  commit: b9b93b055f4c3fe231aedecf5679cebfddef2353
+  commit_source: commit from the shuttle repo's projects/<name>/commit_id.json
+  tag: tinytapeout/ttgf0p2/tt_um_htfab_cells
+  branch: tapeout/tinytapeout/ttgf0p2/tt_um_htfab_cells
+  page: https://app.tinytapeout.com/shuttles/ttgf0p2
+generated: '2026-10-17T23:48:31Z'
+tooling: https://github.com/wafer-space/wafer.space-bench
+index: https://wafer-space-bench.github.io
+branches:
+- about
+- tapeout/tinytapeout/ttgf0p2/tt_um_htfab_cells
+- upstream/main
